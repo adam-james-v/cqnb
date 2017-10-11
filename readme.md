@@ -26,7 +26,6 @@ Currently *cqnb* is used by directly importing the module into your notebook. As
 3. Import cqjupyter into your notebook.
 
 ```python
-s = "Python syntax highlighting"
 import sys
 sys.path.append('/path/to/cqnb/script')
 from cqjuypter import *
