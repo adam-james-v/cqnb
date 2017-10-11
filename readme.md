@@ -25,9 +25,12 @@ Currently *cqnb* is used by directly importing the module into your notebook. As
 
 3. Import cqjupyter into your notebook.
 
-	import sys
-	sys.path.append('/path/to/cqnb/script')
-	from cqjuypter import *
+```python
+s = "Python syntax highlighting"
+import sys
+sys.path.append('/path/to/cqnb/script')
+from cqjuypter import *
+```
 
 **ATTN:** You must place these imports in a cell *separate* from your cadquery script. This is because the CadQuery interface runs into trouble when it reads the line 'import cqjupyter'. 
 
