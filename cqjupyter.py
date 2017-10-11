@@ -179,7 +179,7 @@ def show_object(result):
             start = src.index(first) + len(first)
             end = src.index(last, start)
             return src[start:end]
-        except valueError:
+        except ValueError:
             return ""
 
     obj_name = find_between(script_text, 'show_object(', ')')
